@@ -123,6 +123,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     min-height: 400px;
+    cursor: pointer;
 }
 
 .card{
@@ -131,47 +132,25 @@ nav ul li a{
     padding: 20px 35px;
     background: rgb(51, 51, 51);
     border-radius: 20px;
-    margin: 15px;
+    margin: 45px;
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-.card i{
-    font-size: 50px;
-    margin-bottom: 20px;
-    display: block;
-    text-align: 25px 0px;
-    color: #de5959;
-    cursor: pointer;
-}
 h5{
     color: white;
     font-size: 23px;
     margin-bottom: 15px;
 }
 .pra p{
-
     color: white;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 27px;
     margin-bottom: 25px;
-}
-
-.card .button{
-    background-color: #de5959;
-    color: white;
     text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 9px 22px;
-    border-radius: 30px;
-    transform: .4s;
-    cursor: pointer;
+
 }
 
-.card .button:hover{
-    background-color: transparent;
-    border: 2px solid #de5959;
-    cursor: pointer;
-}
+.pra p a{text-decoration: none; color: white;}
+.pra p a:hover{color: darkviolet; transition: .4s;}
