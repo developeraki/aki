@@ -5,6 +5,11 @@
     font-family: 'Poiret One', cursive;
 }
 
+*::selection{
+    color: rgb(112, 9, 208);
+    background: rgb(183, 102, 224);
+}
+
 section {
     width: 100%;
     height: 700px;
@@ -36,21 +41,20 @@ section {
 }
 
 .links {
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(48, 45, 45);
 }
 
 .projects {
     background-color: rgb(55, 52, 52);
 }
 
-
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
-    padding-left: 37%;
-    padding-right: 1%;
+    padding-left: 36%;
+    padding-right: 30%;
     cursor: pointer;
     font-size: 20px;
 }
@@ -61,11 +65,6 @@ nav ul li{
     padding: 10px 18px;
 }
 
-nav ul li a:hover {
-    color: blueviolet;
-    transition: .4s;
-}
-
 nav ul li a{
     color: white;
     text-decoration: none;
@@ -73,6 +72,10 @@ nav ul li a{
     text-transform: capitalize;
 }
 
+nav ul li a:hover {
+    color: blueviolet;
+    transition: .4s;
+}
 
 #links{
     font-size: 60px;
@@ -95,13 +98,74 @@ nav ul li a{
     transform: scale(1.2);
 }
 
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    cursor: pointer;
+}
 
+.card{
+    height: 350px;
+    width: 335px;
+    padding: 20px 35px;
+    background: rgb(74, 71, 71);
+    border-radius: 20px;
+    margin: 45px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
 
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    transition: .4s;
+}
 
+.pra p{
+    color: white;
+    font-size: 19px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-decoration: none;
 
+}
 
+.pra p a{text-decoration: none; color: white;}
 
+.pra p a:hover{
+    color: darkviolet; 
+    transition: .4s;
+}
 
+h5:hover{
+    color: darkviolet;
+    transform: scale(1.2);
+}
+
+#projects {
+    font-size: 60px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    transition: .4s;
+    color: white;
+}
+
+#projects::selection{
+    color: darkmagenta;
+    background: rgb(231, 196, 255);
+}
+
+#projects:hover{
+    color: rgb(168, 94, 237);
+    transform: scale(1.2);
+}
 
 
 
@@ -116,41 +180,3 @@ nav ul li a{
        - design.css
 
 */
-
-
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-    cursor: pointer;
-}
-
-.card{
-    height: 400px;
-    width: 335px;
-    padding: 20px 35px;
-    background: rgb(51, 51, 51);
-    border-radius: 20px;
-    margin: 45px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-
-h5{
-    color: white;
-    font-size: 23px;
-    margin-bottom: 15px;
-}
-.pra p{
-    color: white;
-    font-size: 19px;
-    line-height: 27px;
-    margin-bottom: 25px;
-    text-decoration: none;
-
-}
-
-.pra p a{text-decoration: none; color: white;}
-.pra p a:hover{color: darkviolet; transition: .4s;}
